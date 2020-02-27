@@ -5,7 +5,7 @@ O objetivo desse projeto é fazer um registro dos estudos na configuração de u
 É possível que cometa alguns erros no processo e que seja necessário voltar alguns passos. Conto com críticas para o refinamento da proposta.
 
 
-## Pré-requisitos
+## Requisitos
 
 - Docker (https://docs.docker.com/install/)
 - Docker Compose (https://docs.docker.com/compose/install/)
@@ -13,8 +13,13 @@ O objetivo desse projeto é fazer um registro dos estudos na configuração de u
 
 ## Como rodar o projeto
 
-Na raiz do projeto rodar o comando: `docker-compose up`
-Acessar o endereço http://localhost:8000
+1. Na raiz do projeto rodar o comando: `docker-compose up -d`
+2. Acessar o endereço http://localhost:8000
+
+
+## Como encerrar o serviço
+
+1. Rodar o comando: `docker-compose down`
 
 
 ## Referências

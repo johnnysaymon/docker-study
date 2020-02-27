@@ -6,6 +6,6 @@
     <title>Teste</title>
 </head>
 <body>
-    <p><?php echo 'Olá Mundo'; ?></p>
+    <p>Esse mês tem <?php echo cal_days_in_month(CAL_GREGORIAN, date('m'), date('Y')); ?> dias.</p>
 </body>
 </html>
